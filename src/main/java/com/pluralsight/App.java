@@ -33,7 +33,5 @@ public class App {
 
     }
 
-    public void Student(){
 
-    }
 }
