@@ -13,6 +13,7 @@ public class App {
         two.getName();
         two.getProfile(two);
         three.getProfile(three);
+        System.out.println();
 
         System.out.println("=== Processing Student Changes ===");
         three.enroll();
@@ -20,6 +21,7 @@ public class App {
         one.withdraw();
         one.updateGpa(5.0);
         two.addCourse("Science");
+        System.out.println();
 
         System.out.println("Updated Student Profiles:");
         one.getProfile(one);
