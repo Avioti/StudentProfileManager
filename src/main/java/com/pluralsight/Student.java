@@ -44,7 +44,7 @@ public class Student {
     }
 
     public String dropCourse(String test){
-        System.out.println("Dropping " + test + " to " + this.name + "'s curriculum");
+        System.out.println("Dropping " + test + " from " + this.name + "'s curriculum");
         return test;
     }
 
